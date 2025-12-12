@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
+
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(page_title="Neighborhood Analysis", layout="wide")
@@ -114,3 +116,4 @@ Based on the data visualized above and the FiveThirtyEight model comparisons:
 
 **Final Conclusion:** While commuting time influences rent, the data suggests that **neighborhood demand and amenities** play a major role in shaping housing prices and Niche scores, often overriding raw metrics like Walkability.
 """)
+
